@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Gonzalo Gonzalez",
+        "position": "Gerente",
+        "description": "Encagado de liderar y supervisar al equipo de trabajo.",    
+        "image": "https://avatars.githubusercontent.com/u/107937050?v=4"   
+    },
+    {
+        "id": 2,
+        "name": "Diego Laurora",
+        "position": "Servicio al cliente",
+        "description": "Experiencia en el trato con el cliente o turista.",
+        "image": "https://avatars.githubusercontent.com/u/107487596?v=4"       
+    },
+    {
+        "id": 3,
+        "name": "Federico Salerno",
+        "position": "Mantenimiento",
+        "description": "Mantenimiento de bicicletas para ofrecer la mejor seguridad.",
+        "image": "https://avatars.githubusercontent.com/u/114102486?v=4"      
+    },
+    {
+        "id": 4,
+        "name": "Paolo Sella",
+        "position": "Marketing digital",
+        "description": "Encargado de diseñar las estratégias de ventas.",
+        "image": "https://avatars.githubusercontent.com/u/127257339?v=4"        
+    },
+    {
+        "id": 5,
+        "name": "Marcos Zabala",
+        "position": "Diseñador gráfico",
+        "description": "Encargado de crear la mejor experiencia para el usuario.",
+        "image": "https://avatars.githubusercontent.com/u/128554028?v=4"
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "brand": "Venzo",
+        "model": "Bicicleta montaña",
+        "wheel_size": 29,
+        "price": "15 USD",
+        "image": "/assets/images/bicis/VenzoFrida.png"
+    },
+    {
+        "id": 2,
+        "brand": "Volkswagen",
+        "model": "Bicicleta montaña",
+        "wheel_size": 29,
+        "price": "15 USD",
+        "image": "/assets/images/bicis/VolkswagenHighkube.png"
+    },
+    {
+        "id": 3,
+        "brand": "Benelli",
+        "model": "Bicicleta montaña",
+        "wheel_size": 29,
+        "price": "15 USD",
+        "image": "/assets/images/bicis/BenelliRaceKing.png"
+    },
+    {
+        "id": 4,
+        "brand": "Volkswagen",
+        "model": "Bicicleta urbana",
+        "wheel_size": 16,
+        "price": "10 USD",
+        "image": "/assets/images/bicis/1_Plegable.png"
+    },
+    {
+        "id": 5,
+        "brand": "Smart",
+        "model": "Bicicleta hibrida",
+        "wheel_size": 21,
+        "price": "20 USD",
+        "image": "/assets/images/bicis/hibrida.png"
+    },
+    {
+        "id": 6,
+        "brand": "Scott",
+        "model": "Bicicleta infantiles",
+        "wheel_size": "infantil",
+        "price": "10 USD",
+        "image": "/assets/images/bicis/niños.png"
+    }    
+
+]

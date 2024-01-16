@@ -1,0 +1,63 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5vw;
+    padding: 50px 0;
+    width: 100%;
+    background-color: var(--blanco);
+    height: 66px;
+    box-shadow: 0 2px 4px var(--br-shadows);
+}
+header img {
+    margin-left: 5vw;
+    width:220px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+nav {
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;    
+    padding-right: 5vw;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+nav a {    
+    text-decoration: none;
+    color: var(--negro);
+    margin-left: 4px;
+    padding-left: 3rem;
+    font-size: 20px;
+    font-weight: 500;
+    transition-property: color;
+    transition-duration: 0.5s;
+    align-self: flex-end;    
+}
+nav a:hover {
+    color: var(--amarillo);  
+}
+
+#empresa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#alquilar{
+    margin: 5vh 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 8vh;    
+}

@@ -1,0 +1,291 @@
+.form-rent{
+    display: flex;
+    width: 50%;
+    height: 29rem;
+}
+#form-wizard {
+    width: 100%;
+    height: auto;    
+    margin-left: 2vw;    
+    padding: 20px;
+    background-color: var(--bg-section);
+    box-shadow: 2px 2px 5px var(--br-shadows);
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.form-step #valor {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    color: var(--amarillo);
+    font-weight: bold;
+  }
+
+.form-step #precio {
+    color: var(--amarillo);
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+/* Estilos de los pasos */
+.form-step:not(:first-of-type) {
+    display: none;
+}
+  
+/* Animaciones de los pasos */
+.form-step {
+    animation: fade-in 0.5s ease-in-out;
+}
+
+#form-wizard .form-step p {
+    margin-bottom: 20px;
+}
+
+#form-step .h2{
+    margin-bottom: 10px;
+}
+  
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+  
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  
+/* Estilos de los títulos de los pasos */
+.form-step h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+  
+/* Estilos de los campos de entrada y selección */
+.form-step input:focus {
+    border-bottom: 2px solid var(--negro);
+    outline: none;
+}
+
+.form-step textarea:focus {
+    border-bottom: 2px solid var(--negro);
+    outline: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--br-input);
+    font-size: 16px;
+}
+  
+/* Estilos de los botones */
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
+  
+.prev-button,
+.next-button,
+.submit-button {
+    background-color: var(--bg-button);
+    color: var(--blanco);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    font-size: 18px;
+}
+
+.next-button, .submit-button {
+    margin-left: 40%;
+    margin-top: -10px;
+  }
+
+.next-button{
+    justify-content: center;
+}
+
+.prev-button:hover,
+.next-button:hover,
+.submit-button:hover {
+    background-color: var(--amarillo);
+}
+  
+/* Transición entre los pasos */
+.form-step.fade-out {
+    animation: fade-out 0.5s ease-in-out;
+}
+  
+@keyframes fade-out {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  
+    to {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+}
+
+label[for="precio"] {
+    color: var(--negro);
+    font-weight: bold;
+}
+  
+#precio {
+    color: var(--negro);
+    font-weight: bold;
+    font-size: 20px;
+}  
+
+/* Sección Personal */
+#personal{
+    margin: 0 5vw;    
+    background-color: var(--bg-section);
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    box-shadow: 2px 2px 2px var(--br-shadows);
+}
+#personal h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4vh; 
+}
+#empleados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;    
+    background-color: transparent;
+    align-items: center;
+    gap: 2rem;
+}
+    
+.card{
+    width: 230px;
+    height: 390px;
+    padding: 20px;
+    background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+  
+.name{
+    color: var(--negro);
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+    
+.job{
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--amarillo);
+    text-align: center;
+}
+    
+.description{
+    color: var(--negro);
+    text-align: center;
+}
+  
+.card p{
+    height: 70px;
+    margin-top: 0;
+}
+    
+.card img{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 2px solid var(--br-input);
+}
+  
+/* Sección Contactenos */
+.formulario {
+    width: 610px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--bg-section);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px var(--br-shadows);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.formulario p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+form textarea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 50px;
+    max-height: 350px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+form input[type="submit"] {
+    margin-left: 35%;
+    margin-top: 30px;
+    width: 30%;
+    background-color: var(--bg-button);
+    color: var(--blanco);
+    cursor: pointer;
+    border: none;
+}
+
+form input[type="submit"]:hover {
+    background-color: var(--amarillo);
+    transition: all 0.3s ease-in-out
+}
+
+.formulario input:focus {
+    border-bottom: 2px solid var(--negro);
+    outline: none;
+}
+
+.formulario textarea:focus{
+    border-bottom: 2px solid var(--negro);
+    outline: none;
+}
